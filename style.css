@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #5f2ba2;
+}
+.logo {
+    width: 275;
+    height: 257;
+}
+.buttons {
+    display: flex;
+}
+.btn {
+    background-color: #ff2277;
+    color: white;
+    padding: 1opx 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #FFFFFF
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin: 40 px 0;
+}
+.center-image {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #ff5622
+}
+.opinion-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 50px;
+}
+.menu {
+    display: flex;
+}
+.opinion-text {
+    text-align: center;
+}
+.opinion-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
